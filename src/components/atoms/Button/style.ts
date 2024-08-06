@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
-export const Layout = styled.button`
+interface LayoutProps {
+  backgroundColor?: string;
+}
+
+export const Layout = styled.button<LayoutProps>`
   width: auto;
   min-width: 3.4375rem;
 
