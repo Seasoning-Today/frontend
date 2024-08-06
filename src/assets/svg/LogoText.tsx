@@ -46,9 +46,9 @@ export default function LogoText() {
         />
       </svg>
       <defs>
-        <clipPth id="clipP669_2902">
+        <clipPath id="clipP669_2902">
           <rect width="92" height="17" fill="white" />
-        </clipPth>
+        </clipPath>
       </defs>
     </svg>
   );
