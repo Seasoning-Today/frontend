@@ -6,12 +6,12 @@ export default function Button({
   text,
   size = '0.875',
   color = '#333',
-  backgroudColor = '#fff',
+  backgroundColor = '#fff',
   onClick,
   ...props
 }) {
   return (
-    <S.Layout backgroudColor={backgroudColor} onClick={onClick} {...props}>
+    <S.Layout backgroundColor={backgroundColor} onClick={onClick} {...props}>
       <Text size={size} color={color}>
         {text}
       </Text>
