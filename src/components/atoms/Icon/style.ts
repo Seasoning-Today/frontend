@@ -1,6 +1,14 @@
 import styled from 'styled-components';
 
-export const Layout = styled.div`
+interface LayoutProps {
+  width?: number;
+  height?: number;
+}
+
+export const Layout =
+  styled.div <
+  LayoutProps >
+  `
   width: ${({ width }) => `${width}rem`};
   height: ${({ height }) => `${height}rem`};
 
